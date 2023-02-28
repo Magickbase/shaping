@@ -279,7 +279,7 @@ Use:
 
 -After the code is merged into the release branch, it needs to be regression tested. The project leader will release the code to the production environment after it is error free.
 
-![英文](https://user-images.githubusercontent.com/122437870/221747065-364eca8e-014f-4528-aef6-a190e0cee652.png)
+![Eng.](https://user-images.githubusercontent.com/122437870/221747065-364eca8e-014f-4528-aef6-a190e0cee652.png)
 
 #### 5.Testing stage
 
