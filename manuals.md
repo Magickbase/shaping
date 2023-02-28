@@ -143,7 +143,7 @@ Iteration planning documents: If a product manager has a long-term project plan 
 
 Market research documents: the documents produced by the product manager's market research, user interviews, competitor analysis, etc. Again, these documents need to be uploaded and shared with project members.
 
-#### 2. Planning stage
+#### 2.Planning stage
 
 (1) Introduction to product planning
 
@@ -185,7 +185,7 @@ Copy to: Project Affiliates and Project Leaders
 
 Content：Background and Purpose/Members and Responsibilities/Content/Scheduling.
 
-#### 3. Design stage
+#### 3.Design stage
 
 (1) Introduction to UI design
 
@@ -225,7 +225,7 @@ The review of the UI design draft can be organized by the UI designer, or the pr
 
 UI design draft: The UI design draft created by the design software, uploaded to Figma after markup, and appended the relevant links to the corresponding issue on Github for retention.
 
-#### 4. Development stage
+#### 4.Development stage
 
 (1) Introduction to development
 
@@ -279,27 +279,71 @@ Use:
 
 -After the code is merged into the release branch, it needs to be regression tested. The project leader will release the code to the production environment after it is error free.
 
+![Eng.](https://user-images.githubusercontent.com/122437870/221747065-364eca8e-014f-4528-aef6-a190e0cee652.png)
 
+#### 5.Testing stage
 
+(1) Test Introduction
 
+The testing stage is mainly done by test engineers, who test the product according to the test cases written by the PRD document to find the bugs and defects in the product interface, functions and those that do not meet the product requirements document.
 
+The development team has to make changes to the defects during this phase, and the test engineers need to track the fixes of the defects.
 
+(2) Participants and responsibilities
 
+The testing stage involves mainly testers and developers:
 
+-Testers: understand the background of the project, get familiar with the requirements of the product, write test cases for the product through the product requirements document, organize and invite relevant personnel for a review meeting of the product test cases, in which the testers explain the principles of writing their own test cases to the other participants. After the meeting, the testers test the product. Before testing, they need to confirm the version number and version name of the current test version with the product manager and follow up the test defects submitted.
 
+-Developers: code fixes for defects found by testers.
 
+-Project members: All project members should try to participate in the testing process and raise the bugs found so that the product can be improved before going online.
 
+(3) Test case review meeting
 
+The test case review meeting is organized by the test engineer with the participation of relevant project personnel, and the meeting process should focus on the following points:
 
+1.The clarity of the description of the test case itself and the presence of duality;
 
+2.Whether the efficiency of test case execution is taken into account, often the steps in the test cases are repeatedly executed with different validation points, and the redundancy of the test design, all of which contribute to inefficiency;
 
+3.Whether all product requirements are covered;
 
+4.Whether the product design requirements have been fully complied with, i.e. matched to the PRD document.
 
+(4) Document output
 
+Test Case: Test Case (Test Case) is a set of test inputs, execution conditions and expected results prepared for a particular goal in order to test whether the product can go online normally.
 
+Test report: Test report is to write the process and results of the test into a document, analyze the problems and defects found, and provide a basis for correcting the quality problems of the product, as well as laying the foundation for product test acceptance and delivery.
 
+The test report contains the test purpose, project background, test arrangement, test plan, test results, defect analysis, test summary and other elements, which should also be uploaded to Github for retention in the corresponding issue after completion of writing.
 
+#### 6.Release Online stage
 
+(1) Release Online Introduction
 
+Product release online is a milestone event for the project team, meaning that the product code is switched from the test environment to the official production environment, and the product can be accessed directly by ordinary external users by updating the app or opening the online web link.
 
+(2) Participants and responsibilities
+
+The main participants in the product launch include project leaders, product managers, developers, etc.
+
+-Project leader: determine the release version, release time and release channel of the project.
+
+-Product manager: do final regression testing before release online, find obvious bugs in time, write good product release notes; after the product release online, write product launch release emails for project-wide notification.
+
+-Development engineers: to carry out the sealing work, while the project leader agreed to submit the release application.
+
+(3) Grayscale release
+
+The so-called grayscale release is to select some users according to a certain strategy and let them experience the new version of the application first. By collecting feedback from these users on the new version of the application and assessing and evaluating the new version's features, performance, stability and other indicators, the decision will be made to continue to scale up the release of the new version until the full upgrade or rollback to the old version.
+
+(4) Document output
+
+Product release notes: the release notes after the product launch, including the product update features, scope, etc., the release needs to be issued after the release email for project-wide notification; APP products through the app store channel for release, but also to write the update notes.
+
+Grayscale test report: Combine with the release of grayscale version, write grayscale test report, including product data summary, user feedback summary, etc., and elaborate the next specific action plan.
+
+------------------------------------------ END 2023.2.28 ------------------------------------------
 
